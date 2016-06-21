@@ -15,7 +15,8 @@
 		4DAF60221BE3FE8A00BD3707 /* swift_conjunction_functionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF60211BE3FE8A00BD3707 /* swift_conjunction_functionTests.swift */; };
 		4DAF602E1BE3FFF700BD3707 /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF602D1BE3FFF700BD3707 /* Sandbox.swift */; };
 		4DAF60301BE4007100BD3707 /* SandboxSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF602F1BE4007100BD3707 /* SandboxSpec.swift */; };
-		C9901CA7424E389AE0F965CB /* Pods_swift_conjunction_functionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DA02093557DB4D3FBDF15C /* Pods_swift_conjunction_functionTests.framework */; };
+		67CCB26B1239A1AC5859776B /* Pods_swift_conjunction_function.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2CE34513097B1D9160B6DD /* Pods_swift_conjunction_function.framework */; };
+		8CC03A43581FCFDB3DF5FEC8 /* Pods_swift_conjunction_functionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3142FE278CA4A63C91E020A /* Pods_swift_conjunction_functionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060A1774780CE3C82AF0AB24 /* Pods-swift-conjunction-functionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-functionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27B6408B44932830CA679F6A /* Pods-swift-conjunction-function.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-function.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-function/Pods-swift-conjunction-function.release.xcconfig"; sourceTree = "<group>"; };
+		2EB926297E6729A9CEEA895E /* Pods-swift-conjunction-function.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-function.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-function/Pods-swift-conjunction-function.debug.xcconfig"; sourceTree = "<group>"; };
 		4DAF60091BE3FE8A00BD3707 /* swift-conjunction-function.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-conjunction-function.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAF600C1BE3FE8A00BD3707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DAF600E1BE3FE8A00BD3707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,9 +45,9 @@
 		4DAF60231BE3FE8A00BD3707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DAF602D1BE3FFF700BD3707 /* Sandbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandbox.swift; sourceTree = "<group>"; };
 		4DAF602F1BE4007100BD3707 /* SandboxSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandboxSpec.swift; sourceTree = "<group>"; };
-		66AF63FD94C9AF95B106F4DA /* Pods-swift-conjunction-functionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-functionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests.release.xcconfig"; sourceTree = "<group>"; };
-		66B06756D7BA4BB72FA4AA43 /* Pods-swift-conjunction-functionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-functionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1DA02093557DB4D3FBDF15C /* Pods_swift_conjunction_functionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_conjunction_functionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2CE34513097B1D9160B6DD /* Pods_swift_conjunction_function.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_conjunction_function.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37AA1C9D68CB4514AE515BC /* Pods-swift-conjunction-functionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-functionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3142FE278CA4A63C91E020A /* Pods_swift_conjunction_functionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_conjunction_functionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67CCB26B1239A1AC5859776B /* Pods_swift_conjunction_function.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,21 +63,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9901CA7424E389AE0F965CB /* Pods_swift_conjunction_functionTests.framework in Frameworks */,
+				8CC03A43581FCFDB3DF5FEC8 /* Pods_swift_conjunction_functionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253162B7564E92D263CB4394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EB926297E6729A9CEEA895E /* Pods-swift-conjunction-function.debug.xcconfig */,
+				27B6408B44932830CA679F6A /* Pods-swift-conjunction-function.release.xcconfig */,
+				060A1774780CE3C82AF0AB24 /* Pods-swift-conjunction-functionTests.debug.xcconfig */,
+				A37AA1C9D68CB4514AE515BC /* Pods-swift-conjunction-functionTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4DAF60001BE3FE8A00BD3707 = {
 			isa = PBXGroup;
 			children = (
 				4DAF600B1BE3FE8A00BD3707 /* swift-conjunction-function */,
 				4DAF60201BE3FE8A00BD3707 /* swift-conjunction-functionTests */,
 				4DAF600A1BE3FE8A00BD3707 /* Products */,
-				9C151E50627E98BE025A1666 /* Pods */,
-				C13051E968A4700567B63CF4 /* Frameworks */,
+				253162B7564E92D263CB4394 /* Pods */,
+				DADE02AE443BDABDD593FAED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,19 +133,11 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9C151E50627E98BE025A1666 /* Pods */ = {
+		DADE02AE443BDABDD593FAED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				66B06756D7BA4BB72FA4AA43 /* Pods-swift-conjunction-functionTests.debug.xcconfig */,
-				66AF63FD94C9AF95B106F4DA /* Pods-swift-conjunction-functionTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C13051E968A4700567B63CF4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C1DA02093557DB4D3FBDF15C /* Pods_swift_conjunction_functionTests.framework */,
+				7B2CE34513097B1D9160B6DD /* Pods_swift_conjunction_function.framework */,
+				D3142FE278CA4A63C91E020A /* Pods_swift_conjunction_functionTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAF60261BE3FE8A00BD3707 /* Build configuration list for PBXNativeTarget "swift-conjunction-function" */;
 			buildPhases = (
+				DF8FC9E361B6E68F1CCE1EE7 /* [CP] Check Pods Manifest.lock */,
 				4DAF60051BE3FE8A00BD3707 /* Sources */,
 				4DAF60061BE3FE8A00BD3707 /* Frameworks */,
 				4DAF60071BE3FE8A00BD3707 /* Resources */,
+				FBF13897F44026BD0037225D /* [CP] Embed Pods Frameworks */,
+				DA9394DB74FE2985FCD8B930 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,12 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAF60291BE3FE8A00BD3707 /* Build configuration list for PBXNativeTarget "swift-conjunction-functionTests" */;
 			buildPhases = (
-				04A366971932771914896944 /* Check Pods Manifest.lock */,
+				905076E17A69B8B8DF42D456 /* [CP] Check Pods Manifest.lock */,
 				4DAF60191BE3FE8A00BD3707 /* Sources */,
 				4DAF601A1BE3FE8A00BD3707 /* Frameworks */,
 				4DAF601B1BE3FE8A00BD3707 /* Resources */,
-				5FCBE0EC3A8D5935BF2FC0EC /* Embed Pods Frameworks */,
-				51A20F13C6DA010062634734 /* Copy Pods Resources */,
+				3E02756453DA0171F8D11E32 /* [CP] Embed Pods Frameworks */,
+				7E8680D70F304096BE0D4CC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,29 +245,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04A366971932771914896944 /* Check Pods Manifest.lock */ = {
+		3E02756453DA0171F8D11E32 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		51A20F13C6DA010062634734 /* Copy Pods Resources */ = {
+		7E8680D70F304096BE0D4CC9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,19 +275,64 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5FCBE0EC3A8D5935BF2FC0EC /* Embed Pods Frameworks */ = {
+		905076E17A69B8B8DF42D456 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9394DB74FE2985FCD8B930 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-conjunction-function/Pods-swift-conjunction-function-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8FC9E361B6E68F1CCE1EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF13897F44026BD0037225D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-conjunction-function/Pods-swift-conjunction-function-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -414,6 +470,7 @@
 		};
 		4DAF60271BE3FE8A00BD3707 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB926297E6729A9CEEA895E /* Pods-swift-conjunction-function.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-conjunction-function/Info.plist";
@@ -425,6 +482,7 @@
 		};
 		4DAF60281BE3FE8A00BD3707 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B6408B44932830CA679F6A /* Pods-swift-conjunction-function.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-conjunction-function/Info.plist";
@@ -436,7 +494,7 @@
 		};
 		4DAF602A1BE3FE8A00BD3707 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66B06756D7BA4BB72FA4AA43 /* Pods-swift-conjunction-functionTests.debug.xcconfig */;
+			baseConfigurationReference = 060A1774780CE3C82AF0AB24 /* Pods-swift-conjunction-functionTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "swift-conjunction-functionTests/Info.plist";
@@ -449,7 +507,7 @@
 		};
 		4DAF602B1BE3FE8A00BD3707 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66AF63FD94C9AF95B106F4DA /* Pods-swift-conjunction-functionTests.release.xcconfig */;
+			baseConfigurationReference = A37AA1C9D68CB4514AE515BC /* Pods-swift-conjunction-functionTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "swift-conjunction-functionTests/Info.plist";
